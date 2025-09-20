@@ -11,3 +11,6 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 - Registro y consulta de películas.
 - Administración de funciones de fin de semana.
 - Registros básicos en consola.
+
+## Licencia
+[LICENSE](LICENSE)
