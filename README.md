@@ -35,8 +35,7 @@ Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. M
 - Registros básicos en consola.
 
 ## Presupuesto
-El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.  
-- Cada integrante aportará aproximadamente **Por definir horas de trabajo**, equivalentes a **1 SMLV**, incluyendo desarrollo, pruebas, documentación y reuniones de seguimiento.  
+El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.    
 - Este tiempo es un estimado y puede ajustarse según el avance del proyecto y eventualidades del equipo, garantizando que todos los miembros contribuyan de manera equilibrada.
 
 |     **Integrante**           | **Horas estimadas**|**Actividades principales**|
