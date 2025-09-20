@@ -10,7 +10,11 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 ## Integrantes
 |            NOMBRE             |     ROL/CARGO EN EL PROYECTO    |
 |-------------------------------|---------------------------------|
-|Karen Meliza zaoata Gutierrez  | Líder del proyecto y encargada del repositorio en GitHub|
+|Karen Meliza Zapata Gutierrez  | Líder del proyecto y encargada del repositorio en GitHub|
+|Nombre 2 | Rol |
+|Nombre 3 | Rol |
+|Nombre 4 | Rol |
+
 ## Funcionalidades
 - Registro y consulta de películas.
 - Administración de funciones de fin de semana.
