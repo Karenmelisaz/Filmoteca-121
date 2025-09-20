@@ -18,7 +18,7 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 ## Vínculos académicos y descripción
 
 - **Karen Meliza Zapata Gutierrez**:
-Soy estudiante de Ingeniería Industrial y tengo el gusto de liderar el proyecto Filmoteca-121, además de encargarme del repositorio en GitHub. Me considero organizada, responsable y siempre con disposición para aprender y mejorar cada día. Me apasiona trabajar en equipo y comunicarme de manera clara. Tengo conocimientos en Visual Studio Code, Sublime Text y MongoDB, pero lo que más me motiva es seguir creciendo, aprendiendo nuevas herramientas y contribuyendo al éxito del grupo.
+Soy estudiante de Ingeniería Industrial y tengo el gusto de liderar el proyecto Filmoteca-121, además de encargarme del repositorio en GitHub. Me considero organizada, responsable y siempre con disposición para aprender y mejorar cada día. Me apasiona trabajar en equipo y comunicarme de manera clara. Tengo conocimientos en Visual Studio Code, Sublime Text y MongoDB, pero lo que más me motiva es seguir creciendo, aprendiendo nuevas herramientas y aportando al grupo de la mejor manera posible.
 
 - **Yuliana Andrea Quiros Pareja**:
 Estudiante de Ingeniería Industrial, actualmente cursando el 4º semestre en la sede Norte. Vivo en el municipio de Angostura. Mis expectativas para este grupo de trabajo son que cada integrante pueda aportar de manera significativa, logrando un flujo de trabajo efectivo y un proyecto de calidad.
