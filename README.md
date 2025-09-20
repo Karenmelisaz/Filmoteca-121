@@ -17,8 +17,8 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 
 ## Vínculos académicos y descripción
 
-**KareN Meliza Zapata Gutierrez**
-Estudiante de Ingeniería Industrial, líder del proyecto Filmoteca-121 y encargada del repositorio en GitHub. Me considero organizada, responsable y con buena disposición para aprender. Mis fortalezas incluyen comunicación asertiva, trabajo en equipo y creatividad. Además, tengo conocimientos en Visual Studio Code, Sublime Text y MongoDB, que me permiten aportar en la parte técnica del proyecto.
+**Karen Meliza Zapata Gutierrez**:
+Soy estudiante de Ingeniería Industrial, líder del proyecto Filmoteca-121 y encargada del repositorio en GitHub. Me considero organizada, responsable y con buena disposición para aprender. Mis fortalezas incluyen comunicación asertiva, trabajo en equipo y creatividad. Además, tengo conocimientos en Visual Studio Code, Sublime Text y MongoDB, que me permiten aportar en la parte técnica del proyecto.
 
 ## Funcionalidades
 - Registro y consulta de películas.
