@@ -34,6 +34,11 @@ Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. M
 - Administración de funciones de fin de semana.
 - Registros básicos en consola.
 
+## Presupuesto
+El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.  
+- Cada integrante aportará aproximadamente **50 horas de trabajo**, equivalentes a **1 SMLV**, incluyendo desarrollo, pruebas, documentación y reuniones de seguimiento.  
+- Este tiempo es un estimado y puede ajustarse según el avance del proyecto y eventualidades del equipo, garantizando que todos los miembros contribuyan de manera equilibrada.
+- 
 ## Licencia
 Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
 Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
