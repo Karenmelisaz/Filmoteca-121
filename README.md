@@ -1,7 +1,7 @@
 # Filmoteca-121
 
 <p align="center">
-  <img src="Logo.jpg" alt="Logo Filmoteca 121" width="400" height="250"/>
+  <img src="Logo.jpg" alt="Logo Filmoteca 121" width="515" height="750"/>
 </p>
 
 ## Descripción
