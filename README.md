@@ -13,4 +13,6 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 - Registros básicos en consola.
 
 ## Licencia
-[LICENSE](LICENSE)
+Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
+Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
+o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
