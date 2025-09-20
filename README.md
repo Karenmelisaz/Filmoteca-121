@@ -36,8 +36,15 @@ Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. M
 
 ## Presupuesto
 El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.  
-- Cada integrante aportará aproximadamente **50 horas de trabajo**, equivalentes a **1 SMLV**, incluyendo desarrollo, pruebas, documentación y reuniones de seguimiento.  
+- Cada integrante aportará aproximadamente **Por definir horas de trabajo**, equivalentes a **1 SMLV**, incluyendo desarrollo, pruebas, documentación y reuniones de seguimiento.  
 - Este tiempo es un estimado y puede ajustarse según el avance del proyecto y eventualidades del equipo, garantizando que todos los miembros contribuyan de manera equilibrada.
+
+|     **Integrante**           | **Horas estimadas**|**Actividades principales**|
+| -----------------------------|------------------- | --------------------------|
+| Karen Meliza Zapata          |     Por definir    |     Por definir           |
+| Yuliana Andrea Quiros        |     Por definir    |     Por definir           |
+| Jaider Osorio González       |     Por definir    |     Por definir           |
+| Luisa Fernanda Galeano Serna |     Por definir    |     Por definir           |
 
 ## Licencia
 Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
