@@ -1,8 +1,7 @@
 # Filmoteca-121
 
-![Logo](Logo.jpg)
 <p align="center">
-  <img src="Logo.jpg" alt="Logo Filmoteca 121" width="200"/>
+  <img src="Logo.jpg" alt="Logo Filmoteca 121" width="700"/>
 </p>
 
 ## Descripción
