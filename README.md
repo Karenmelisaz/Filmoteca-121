@@ -40,8 +40,8 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 
 |     **Integrante**           | **Horas estimadas**|**Actividades principales**|
 | -----------------------------|------------------- | --------------------------|
-| Karen Meliza Zapata          |     Por definir    |     Por definir           |
-| Yuliana Andrea Quiros        |     20 horas       | Reuniones y tareas asignadas durante estas    |
+| Karen Meliza Zapata          |     20 horas       |     Por definir           |
+| Yuliana Andrea Quiros        |     20 horas       | Reuniones y tareas asignadas durante estas  |
 | Jaider Osorio González       |     Por definir    |     Por definir           |
 | Luisa Fernanda Galeano Serna |     Por definir    |     Por definir           |
 
