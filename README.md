@@ -24,7 +24,7 @@ Soy estudiante de Ingeniería Industrial y tengo el gusto de liderar el proyecto
 Estudiante de Ingeniería Industrial, actualmente cursando el 4º semestre en la sede Norte. Vivo en el municipio de Angostura. Mis expectativas para este grupo de trabajo son que cada integrante pueda aportar de manera significativa, logrando un flujo de trabajo efectivo y un proyecto de calidad.
 
 - **Jaider Osorio González**:
-Estudiante de Ingeniería Industrial en la Universidad de Antioquia, de Yarumal-Antioquia, perteneciente a la sede Norte, con 21 años. Me interesa el aprendizaje práctico de la programación y cómo aplicarlo para optimizar procesos, mejorar la gestión de recursos y crear soluciones útiles en la vida universitaria y profesional. Me considero comprometido, organizado y con disposición para trabajar en equipo, aportando tanto al desarrollo técnico como a la coordinación de actividades dentro del proyecto. Mis expectativas para este grupo son trabajar con personas capacitadas y con disposición para sacar adelante el proyecto, contribuyendo al éxito del equipo.
+Estudiante de Ingeniería Industrial en la Universidad de Antioquia, perteneciente a la sede Norte, con 21 años. Me interesa el aprendizaje práctico de la programación y cómo aplicarlo para optimizar procesos, mejorar la gestión de recursos y crear soluciones útiles en la vida universitaria y profesional. Me considero comprometido, organizado y con disposición para trabajar en equipo, aportando tanto al desarrollo técnico como a la coordinación de actividades dentro del proyecto. 
 
 - **Luisa Fernanda Galeano Serna**:
 Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. Me considero responsable, disciplinada y con capacidad para trabajar en equipo. Valoro las buenas relaciones interpersonales y procuro actuar siempre con respeto, empatía y consideración hacia los demás.
@@ -42,7 +42,7 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 | -----------------------------|------------------- | --------------------------|
 | Karen Meliza Zapata          |     20 horas       |     Por definir           |
 | Yuliana Andrea Quiros        |     20 horas       | Reuniones y tareas asignadas durante estas  |
-| Jaider Osorio González       |     Por definir    |     Por definir           |
+| Jaider Osorio González       |     20 horas    |     Por definir           |
 | Luisa Fernanda Galeano Serna |     20 horas   |     Por definir           |
 
 ## Licencia
