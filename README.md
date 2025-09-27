@@ -12,8 +12,8 @@ Filmoteca 121 es un proyecto académico de estudiantes de Ingeniería Industrial
 |-------------------------------|---------------------------------|
 |Karen Meliza Zapata Gutierrez  | Líder del proyecto y encargada del repositorio en GitHub|
 |Yuliana Andrea Quiros Pareja   |Secretaria, encargada de toda la parte documental del proyecto
-|Nombre 3 | Rol |
-|Nombre 4 | Rol |
+|Jaider Osorio González | Encargado del soporte tecnico |
+|Luisa Fernanda Galeano Serna | Encarga de hacer segumineto a los avanzes y entregas |
 
 ## Vínculos académicos y descripción
 
@@ -43,7 +43,7 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 | Karen Meliza Zapata          |     20 horas       |     Por definir           |
 | Yuliana Andrea Quiros        |     20 horas       | Reuniones y tareas asignadas durante estas  |
 | Jaider Osorio González       |     Por definir    |     Por definir           |
-| Luisa Fernanda Galeano Serna |     Por definir    |     Por definir           |
+| Luisa Fernanda Galeano Serna |     20 horas   |     Por definir           |
 
 ## Licencia
 Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
