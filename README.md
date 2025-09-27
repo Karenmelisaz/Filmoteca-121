@@ -49,3 +49,8 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
 Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
 o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Reporte de visión 
+Este software tiene como objetivo gestionar el sistema universitario La Filmoteca-121, ofreciendo una manera organizada de administrar sus 121 asientos y funciones de cine de fin de semana.
+Este sistema beneficiará tanto a los usuarios (estudiantes,docentes,administrativos,oficiales internos y público externo),quienes podrán reservar facilmente y obtener su factura, como a los administradores,que tendrán control centralizado sobre las reservas, los ingresos, la generación de reportes estadísticos y la gestión general de la Filmoteca-121. De esta manera, se busca mejorar la organización, reducir errores y ofrecer un experiencia mas ágil y profesional.
+El alcance del software incluye: el registro y validación de usuarios, la creación y cancelaón de reservas,la consulta de funciones del fin de semana, la generación de facturas, la obtención de reportes administrativos (ventas,ingresos, usuarios con más o menos reservas), la exportación de resultados a archivos CSV y la interacción mediante un menú en consola que facilita la navegación.
