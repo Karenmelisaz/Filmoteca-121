@@ -50,11 +50,6 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 | Jaider Osorio González       |     20 horas       |    Desarrollar el módulo de cancelación de reservas y validar la integridad de datos   |
 | Luisa Fernanda Galeano Serna |     20 horas       |      Desarrollar el módulo de registro de reservas de películas y entradas       |
 
-## Licencia
-Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
-Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
-o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 # Diagrama de Gantt - Proyecto Cine
 
 **Periodo:** Septiembre – Noviembre  
@@ -72,3 +67,10 @@ o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-
 
 🔵 = Desarrollo activo  
 ✅ = Entregable terminado
+
+## Licencia
+Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
+Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
+o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
