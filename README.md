@@ -58,7 +58,7 @@ El alcance del software incluye: el registro y validación de usuarios, la creac
 
 # Diagrama de Gantt - Proyecto Cine
 
-**Periodo:** Semana 6 (6 de octubre) – Noviembre  
+**Periodo:** Septiembre – Noviembre  
 
 | Entregable / Módulo         | Responsable(s)     | Semana 6 (6-12 Oct) | Semana 7 (13-19 Oct) | Semana 8 (20-26 Oct) | Semana 9 (27 Oct-2 Nov) | Semana 10 (3-9 Nov) | Semana 11 (10-16 Nov) | Semana 12 (17-23 Nov) |
 |-----------------------------|--------------------|---------------------|----------------------|----------------------|--------------------------|---------------------|-----------------------|-----------------------|
