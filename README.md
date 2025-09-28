@@ -56,9 +56,7 @@ Este sistema beneficiará tanto a los usuarios (estudiantes,docentes,administrat
 El alcance del software incluye: el registro y validación de usuarios, la creación y cancelaón de reservas,la consulta de funciones del fin de semana, la generación de facturas, la obtención de reportes administrativos (ventas,ingresos, usuarios con más o menos reservas), la exportación de resultados a archivos CSV y la interacción mediante un menú en consola que facilita la navegación.
 
 
-    Documentación Final y Pruebas        :         des12, 2025-11-03, 7d
-
-# 📊 Diagrama de Gantt - Proyecto Cine
+# Diagrama de Gantt - Proyecto Cine
 
 **Periodo:** Semana 6 (6 de octubre) – Noviembre  
 
@@ -71,7 +69,7 @@ El alcance del software incluye: el registro y validación de usuarios, la creac
 | **Consulta de Funciones**   | Karen              |                     |                      |                      | 🔵                       | 🔵                  |                       |                       |
 | **Módulo Administrador**    | Karen              |                     |                      |                      |                          | 🔵                  | 🔵                     |                       |
 | **Facturación**             | Todos              |                     |                      |                      |                          |                     | 🔵                     | 🔵                     |
-| **Cierre y pruebas finales**| Todos              |                     |                      |                      |                          |                     |                       | ✅                     |
+| **Cierre y pruebas finales**| Todos              |                     |                      |                      |                          |                     |                       | 🔵                    |
 
 🔵 = Desarrollo activo  
 ✅ = Entregable terminado
