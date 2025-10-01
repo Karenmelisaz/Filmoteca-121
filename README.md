@@ -54,7 +54,7 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 
 **Periodo:** Septiembre – Noviembre  
 
-| Entregable / Módulo         | Responsable(s)     | Semana 6 (6-12 Oct) | Semana 7 (13-19 Oct) | Semana 8 (20-26 Oct) | Semana 9 (27 Oct-2 Nov) | Semana 10 (3-9 Nov) | Semana 11 (10-16 Nov) | Semana 12 (17-23 Nov) |
+| Entregable / Módulo         | Responsable(s)     | Semana 6 (6-30 Sep) | Semana 7 (6-19 Oct) | Semana 8 (20-26 Oct) | Semana 9 (27 Oct-2 Nov) | Semana 10 (3-9 Nov) | Semana 11 (10-16 Nov) | Semana 12 (17-23 Nov) |
 |-----------------------------|--------------------|---------------------|----------------------|----------------------|--------------------------|---------------------|-----------------------|-----------------------|
 | **Integración de entregables iniciales** | Todos            | ✅                 |                      |                      |                          |                     |                       |                       |
 | **Registro de Usuarios**    | Yuliana            |                     | 🔵                   | 🔵                   |                          |                     |                       |                       |
