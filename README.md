@@ -13,13 +13,40 @@ Este sistema beneficiará tanto a los usuarios (estudiantes,docentes,administrat
 El alcance del software incluye: el registro y validación de usuarios, la creación y cancelaón de reservas,la consulta de funciones del fin de semana, la generación de facturas, la obtención de reportes administrativos (ventas,ingresos, usuarios con más o menos reservas), la exportación de resultados a archivos CSV y la interacción mediante un menú en consola que facilita la navegación.
 
 ## Requisisitos funcionales
--Resgristro de Usuarios
--Gestion de reservas 
--Consulta de funciones del fin de semana 
--Facturación
--Módulo de reservas
--Exportación de datos 
--Interfaz de consola
+
+- **Registro de Usuarios**: Permitir la creación de usuarios con datos básicos (nombre, documento, correo, etc.).  
+- **Gestión de Reservas**: Facilitar la creación, modificación y cancelación de reservas de sillas.  
+- **Consulta de Funciones**: Mostrar la cartelera disponible para el fin de semana, con asientos libres en tiempo real.  
+- **Facturación**: Generar comprobantes de pago de las reservas realizadas.  
+- **Módulo de Administración**: Gestión interna de reportes, ingresos y control de usuarios.  
+- **Exportación de Datos**: Posibilidad de exportar reportes o información relevante en formatos externos (CSV, TXT, etc.).  
+- **Interfaz de Consola**: Navegación amigable por menús, permitiendo al usuario acceder fácilmente a cada funcionalidad.  
+
+## Requisitos No Funcionales
+
+### Rendimiento
+- El sistema debe responder en un tiempo menor a **2 segundos** en operaciones de registro, reserva y cancelación de tiquetes.  
+- Debe soportar la gestión de las **121 sillas disponibles** garantizando la consistencia de los datos.  
+- Las operaciones de consulta de la cartelera deben ejecutarse de manera eficiente, mostrando disponibilidad **en tiempo real**.  
+
+### Seguridad
+- El **módulo de administración** debe estar protegido con usuario y contraseña, validando contra una lista de credenciales permitidas.  
+- El acceso a los **reportes administrativos** (ingresos, usuarios con más reservas, promedio de ventas, etc.) debe estar restringido únicamente al personal autorizado.  
+
+### Fiabilidad
+- El sistema debe mantener la integridad de la información: un asiento no puede asignarse a dos usuarios al mismo tiempo.  
+- Ante una cancelación, el asiento debe liberarse **de inmediato** y reflejarse correctamente en el sistema.  
+- El programa debe garantizar la coherencia entre reservas, facturación y reportes administrativos.  
+
+### Usabilidad
+- La interfaz de consola debe ser **amigable, clara y entendible** incluso para usuarios sin conocimientos técnicos.  
+- Los errores de validación (ejemplo: nombres con números, documentos con letras, etc.) deben mostrarse con mensajes explicativos para orientar al usuario.  
+- El menú principal debe permitir una navegación intuitiva entre las opciones: *registrar usuario, reservar, cancelar, consultar funciones, administración, salir*.  
+
+### Mantenibilidad y Escalabilidad
+- Se debe emplear un repositorio en **GitHub** para control de versiones, asegurando trazabilidad de los cambios.  
+- El sistema debe estar diseñado para permitir la incorporación de futuras funcionalidades (ejemplo: **pago en línea, reservas múltiples, reportes adicionales**).  
+
 ## Integrantes
 |            NOMBRE             |     ROL/CARGO EN EL PROYECTO    |
 |-------------------------------|---------------------------------|
@@ -41,11 +68,6 @@ Estudiante de Ingeniería Industrial en la Universidad de Antioquia, pertenecien
 
 - **Luisa Fernanda Galeano Serna**:
 Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. Me considero responsable, disciplinada y con capacidad para trabajar en equipo. Valoro las buenas relaciones interpersonales y procuro actuar siempre con respeto, empatía y consideración hacia los demás.
-
-## Funcionalidades
-- Registro y consulta de películas.
-- Administración de funciones de fin de semana.
-- Registros básicos en consola.
 
 ## Presupuesto
 El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.    
