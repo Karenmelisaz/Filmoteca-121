@@ -48,12 +48,13 @@ El alcance del software incluye: el registro y validación de usuarios, la creac
 - El sistema debe estar diseñado para permitir la incorporación de futuras funcionalidades (ejemplo: **pago en línea, reservas múltiples, reportes adicionales**).  
 
 ## Integrantes
-|            NOMBRE             |     ROL/CARGO EN EL PROYECTO    |
-|-------------------------------|---------------------------------|
-|Karen Meliza Zapata Gutierrez  | Líder del proyecto y encargada del repositorio en GitHub|
-|Yuliana Andrea Quiros Pareja   |Secretaria, encargada de toda la parte documental del proyecto
-|Jaider Osorio González | Encargado del soporte tecnico |
-|Luisa Fernanda Galeano Serna | Encarga de hacer segumiento a los avances y entregas |
+| Integrante                        | Perfil Académico                    | Rol en el Proyecto                           |
+| --------------------------------- | ----------------------------------- | -------------------------------------------- |
+| **Karen Meliza Zapata Gutiérrez** | Estudiante de Ingeniería Industrial | Líder del Proyecto – Gestión del repositorio |
+| **Yuliana Andrea Quirós Pareja**  | Estudiante de Ingeniería Industrial | Documentación y actas                        |
+| **Jaider Osorio González**        | Estudiante de Ingeniería Industrial | Soporte técnico y lógica interna             |
+| **Luisa Fernanda Galeano Serna**  | Estudiante de Ingeniería Industrial | Gestión de módulos y seguimiento             |
+
 
 ## Vínculos académicos y descripción
 
@@ -84,20 +85,19 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 
 **Periodo:** Septiembre – Noviembre  
 
-| Entregable / Módulo         | Responsable(s)     | Semana 6 (6-30 Sep) | Semana 7 (6-19 Oct) | Semana 8 (20-26 Oct) | Semana 9 (27 Oct-2 Nov) | Semana 10 (3-9 Nov) | Semana 11 (10-16 Nov) | Semana 12 (17-23 Nov) |
-|-----------------------------|--------------------|---------------------|----------------------|----------------------|--------------------------|---------------------|-----------------------|-----------------------|
-| **Integración de entregables iniciales** | Todos            | ✅                 |                      |                      |                          |                     |                       |                       |
-| **Registro de Usuarios**    | Yuliana            |                     | 🔵                   | 🔵                   |                          |                     |                       |                       |
-| **Registro de Reservas**    | Luisa              |                     | 🔵                   | 🔵                   |                          |                     |                       |                       |
-| **Cancelación de Reservas** | Jaider             |                     |                      | 🔵                   | 🔵                       |                     |                       |                       |
-| **Consulta de Funciones**   | Karen              |                     |                      |                      | 🔵                       | 🔵                  |                       |                       |
-| **Módulo Administrador**    | Karen              |                     |                      |                      |                          | 🔵                  | 🔵                     |                       |
-| **Facturación**             | Todos              |                     |                      |                      |                          |                     | 🔵                     | 🔵                     |
-| **Cierre y pruebas finales**| Todos              |                     |                      |                      |                          |                     |                       | 🔵                    |
+| Módulo              | Responsable | S6 | S7 | S8 | S9 | S10 | S11 | S12 |
+| ------------------- | ----------- | -- | -- | -- | -- | --- | --- | --- |
+| Integración inicial | Todos       | ✔  |    |    |    |     |     |     |
+| Registro usuarios   | Yuliana     |    | ●  | ●  |    |     |     |     |
+| Reservas            | Luisa       |    | ●  | ●  |    |     |     |     |
+| Cancelación         | Jaider      |    |    | ●  | ●  |     |     |     |
+| Cartelera           | Karen       |    |    |    | ●  | ●   |     |     |
+| Administración      | Karen       |    |    |    |    | ●   | ●   |     |
+| Facturación         | Todos       |    |    |    |    |     | ●   | ●   |
+| Cierre              | Todos       |    |    |    |    |     |     | ●   |
 
-🔵 = Desarrollo activo  
-✅ = Entregable terminado
-
+✔ = Entregado
+● = Desarrollo activo
 
 ## Licencia
 Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
