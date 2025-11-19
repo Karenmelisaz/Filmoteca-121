@@ -100,8 +100,7 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 ● = Desarrollo activo
 
 ## Licencia
-Este proyecto está bajo la licencia **CC BY-NC-SA 4.0**.  
-Puedes consultar los detalles en el archivo [LICENSE](LICENSE)  
-o directamente en [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Filmoteca-121  © 2025 by Karen Meliza Zapata Gutiérrez, Yuliana Andrea Quirós Pareja, Luisa Fernanda Galeano Serna, Jaider Osorio González is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 
 
