@@ -88,12 +88,12 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 | Módulo              | Responsable | S6 | S7 | S8 | S9 | S10 | S11 | S12 |
 | ------------------- | ----------- | -- | -- | -- | -- | --- | --- | --- |
 | Integración inicial | Todos       | ✔  |    |    |    |     |     |     |
-| Registro usuarios   | Yuliana     |    | ●  | ●  |    |     |     |     |
+| Registro usuarios   | Yuliana     |    | ✔  | ✔  |    |     |     |     |
 | Reservas            | Luisa       |    | ●  | ●  |    |     |     |     |
 | Cancelación         | Jaider      |    |    | ●  | ●  |     |     |     |
-| Cartelera           | Karen       |    |    |    | ●  | ●   |     |     |
-| Administración      | Karen       |    |    |    |    | ●   | ●   |     |
-| Facturación         | Todos       |    |    |    |    |     | ●   | ●   |
+| Cartelera           | Karen       |    |    |    | ✔  | ✔   |     |     |
+| Administración      | Karen       |    |    |    |    | ✔   | ✔   |     |
+| Facturación         | Todos       |    |    |    |    |     | ✔  | ✔  |
 | Cierre              | Todos       |    |    |    |    |     |     | ●   |
 
 ✔ = Entregado
