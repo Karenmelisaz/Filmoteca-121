@@ -94,7 +94,7 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 | **Gestión de asientos**             | asientos.py                       | Jaider & Luisa     |        |        | ✔      | ✔      |         |         |         |
 | **Cartelera (funciones)**           | funciones.py, cartelera.py        | Karen              |        |        |        | ✔      | ✔       |         |         |
 | **Módulo de administración**        | administrador.py                  | Karen              |        |        |        |        |         | ✔       | ✔       |
-| **Facturación del sistema**         | Incluida en reservas.py           | Todos              |        |        |        |        |         | ✔       | ✔       |
+| **Facturación del sistema**         | Incluida en reservas.py           |  Jaider & Luisa              |        |        |        |        |         | ✔       | ✔       
 | **Cierre del proyecto**             | main.py                           | Todos              |        |        |        |        |         |         | ✔       |
 
 
