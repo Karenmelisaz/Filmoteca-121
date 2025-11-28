@@ -85,16 +85,18 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 
 **Periodo:** Septiembre – Noviembre  
 
-| Módulo              | Responsable | S6 | S7 | S8 | S9 | S10 | S11 | S12 |
-| ------------------- | ----------- | -- | -- | -- | -- | --- | --- | --- |
-| Integración inicial | Todos       | ✔  |    |    |    |     |     |     |
-| Registro usuarios   | Yuliana     |    | ✔  | ✔  |    |     |     |     |
-| Reservas            | Luisa       |    | ●  | ●  |    |     |     |     |
-| Cancelación         | Jaider      |    |    | ●  | ●  |     |     |     |
-| Cartelera           | Karen       |    |    |    | ✔  | ✔   |     |     |
-| Administración      | Karen       |    |    |    |    | ✔   | ✔   |     |
-| Facturación         | Todos       |    |    |    |    |     | ✔  | ✔  |
-| Cierre              | Todos       |    |    |    |    |     |     | ●   |
+| **Módulo**                          | **Archivos .py**                  | **Responsable(s)** | **S6** | **S7** | **S8** | **S9** | **S10** | **S11** | **S12** |
+| ----------------------------------- | --------------------------------- | ------------------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- |
+| **Integración inicial del sistema** | main.py, datos.py, utilidades.py  | Todos              | ✔      |        |        |        |         |         |         |
+| **Gestión de usuarios**             | usuarios.py                       | Yuliana            |        | ✔      | ✔      |        |         |         |         |
+| **Sistema de reservas**             | reservas.py, facturación incluida | Luisa              |        | ✔      | ✔     |        |         |         |         |
+| **Cancelación de reservas**         | cancelar.py                       | Jaider             |        |        | ✔      | ✔     |         |         |         |
+| **Gestión de asientos**             | asientos.py                       | Jaider & Luisa     |        |        | ✔      | ✔      |         |         |         |
+| **Cartelera (funciones)**           | funciones.py, cartelera.py        | Karen              |        |        |        | ✔      | ✔       |         |         |
+| **Módulo de administración**        | administrador.py                  | Karen              |        |        |        |        |         | ✔       | ✔       |
+| **Facturación del sistema**         | Incluida en reservas.py           | Todos              |        |        |        |        |         | ✔       | ✔       |
+| **Cierre del proyecto**             | main.py                           | Todos              |        |        |        |        |         |         | ✔       |
+
 
 ✔ = Entregado
 ● = Desarrollo activo
