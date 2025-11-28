@@ -74,12 +74,14 @@ Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. M
 El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.    
 - Este tiempo es un estimado y puede ajustarse según el avance del proyecto y eventualidades del equipo, garantizando que todos los miembros contribuyan de manera equilibrada.
 
-|     **Integrante**           | **Horas estimadas**|**Actividades principales**|
-| -----------------------------|------------------- | --------------------------|
-| Karen Meliza Zapata          |     20 horas       |     Diseñar y programar el módulo de consulta de funciones (películas disponibles, horarios y asientos libres |
-| Yuliana Andrea Quiros        |     20 horas       | Desarrollar el módulo de registro de usuarios (estudiantes y asistentes del cine) |
-| Jaider Osorio González       |     20 horas       |    Desarrollar el módulo de cancelación de reservas y validar la integridad de datos   |
-| Luisa Fernanda Galeano Serna |     20 horas       |      Desarrollar el módulo de registro de reservas de películas y entradas       |
+| **Integrante**                   | **Horas estimadas** | **Actividades principales (actualizadas)**                                                                                                    |
+| -------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Karen Meliza Zapata**          | 20 horas            | Programación de la cartelera (*funciones.py*, *cartelera.py*), módulo de administración (*administrador.py*), apoyo en integración.           |
+| **Yuliana Andrea Quiros**        | 20 horas            | Desarrollo completo del módulo de registro de usuarios (*usuarios.py*), validaciones y pruebas del proceso de alta.                           |
+| **Luisa Fernanda Galeano Serna** | 20 horas            | Desarrollo del módulo de reservas (*reservas.py*), lógica de facturación integrada, apoyo en el módulo de asientos y validación de ocupación. |
+| **Jaider Osorio González**       | 20 horas            | Desarrollo del módulo de cancelación (*cancelar.py*), apoyo en el módulo de asientos, validación del estado de ocupación/liberación.          |
+| **Todos los integrantes**        | Tiempo compartido   | Integración del sistema, pruebas generales, estructura modular, archivos base (*main.py*, *datos.py*, *utilidades.py*).                       |
+
 
 # Diagrama de Gantt - Proyecto Cine
 
