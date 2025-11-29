@@ -74,13 +74,13 @@ Apasionada por el aprendizaje continuo y estudiante de Ingeniería Industrial. M
 El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, no en dinero.    
 - Este tiempo es un estimado y puede ajustarse según el avance del proyecto y eventualidades del equipo, garantizando que todos los miembros contribuyan de manera equilibrada.
 
-| **Integrante**                   | **Horas estimadas** | **Actividades principales (actualizadas)**                                                                                                    |
-| -------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Karen Meliza Zapata**          | 20 horas            | Programación de la cartelera (*funciones.py*, *cartelera.py*), módulo de administración (*administrador.py*), apoyo en integración.           |
-| **Yuliana Andrea Quiros**        | 20 horas            | Desarrollo completo del módulo de registro de usuarios (*usuarios.py*), validaciones y pruebas del proceso de alta.                           |
-| **Luisa Fernanda Galeano Serna** | 20 horas            | Desarrollo del módulo de reservas (*reservas.py*), lógica de facturación integrada, apoyo en el módulo de asientos y validación de ocupación. |
-| **Jaider Osorio González**       | 20 horas            | Desarrollo del módulo de cancelación (*cancelar.py*), apoyo en el módulo de asientos, validación del estado de ocupación/liberación.          |
-| **Todos los integrantes**        | Tiempo compartido   | Integración del sistema, pruebas generales, estructura modular, archivos base (*main.py*, *datos.py*, *utilidades.py*).                       |
+| **Integrante**                   | **Horas estimadas** | **Actividades principales (actualizadas)**                                                                                                                                                            |
+| -------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Karen Meliza Zapata**          | **20 horas**        | Módulo de **Funciones/Cartelera** (funciones.py), **Módulo de Administrador**, apoyo general en organización de archivos, pruebas e integración.                                                      |
+| **Yuliana Andrea Quiros**        | **20 horas**        | Desarrollo completo del módulo de **Usuarios** (registro, validaciones de entrada, búsqueda, manejo de errores). Pruebas iniciales y soporte en integraciones.                                        |
+| **Luisa Fernanda Galeano Serna** | **20 horas**        | Desarrollo del módulo de **Reservas**, incluyendo selección de asiento, validación dinámica, **facturación completa**, escritura en archivos y pruebas del flujo de compra.                           |
+| **Jaider Osorio González**       | **20 horas**        | Desarrollo del módulo de **Asientos** (generación de mapa, ocupación/liberación) y módulo de **Cancelación de reservas**, manejo de archivos asociados, verificación del estado.                      |
+| **Todos los integrantes**        | Tiempo compartido   | Desarrollo del **título (banner)**, **archivos base**, **validaciones comunes**, estructuración de carpetas, pruebas finales, documentación y construcción del **main.py** para la integración final. |
 
 
 # Diagrama de Gantt - Proyecto Cine
