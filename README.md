@@ -87,17 +87,17 @@ El presupuesto del proyecto se medirá en **tiempo de práctica profesional**, n
 
 **Periodo:** Septiembre – Noviembre  
 
-| **Módulo**                          | **Archivos .py**                  | **Responsable(s)** | **S6** | **S7** | **S8** | **S9** | **S10** | **S11** | **S12** |
-| ----------------------------------- | --------------------------------- | ------------------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- |
-| **Integración inicial del sistema** | main.py, datos.py, utilidades.py  | Todos              | ✔      |        |        |        |         |         |         |
-| **Gestión de usuarios**             | usuarios.py                       | Yuliana            |        | ✔      | ✔      |        |         |         |         |
-| **Sistema de reservas**             | reservas.py, facturación incluida | Luisa              |        | ✔      | ✔     |        |         |         |         |
-| **Cancelación de reservas**         | cancelar.py                       | Jaider             |        |        | ✔      | ✔     |         |         |         |
-| **Gestión de asientos**             | asientos.py                       | Jaider & Luisa     |        |        | ✔      | ✔      |         |         |         |
-| **Cartelera (funciones)**           | funciones.py, cartelera.py        | Karen              |        |        |        | ✔      | ✔       |         |         |
-| **Módulo de administración**        | administrador.py                  | Karen              |        |        |        |        |         | ✔       | ✔       |
-| **Facturación del sistema**         | Incluida en reservas.py           |  Jaider & Luisa              |        |        |        |        |         | ✔       | ✔       
-| **Cierre del proyecto**             | main.py                           | Todos              |        |        |        |        |         |         | ✔       |
+| **Módulo**                   | **Archivos .py**        | **Responsable(s)** | **S6** | **S7** | **S8** | **S9** | **S10** | **S11** | **S12** |
+| ---------------------------- | ----------------------- | ------------------ | ------ | ------ | ------ | ------ | ------- | ------- | ------- |
+| **Título del sistema**       | titulo.py               | **Todos**          | ✔      |        |        |        |         |         |         |
+| **Archivos del sistema**     | archivos.py             | **Todos**          | ✔      |        |        |        |         |         |         |
+| **Validaciones**             | validaciones.py         | **Todos**          |        | ✔      |        |        |         |         |         |
+| **Usuarios**                 | usuarios.py             | **Yuliana**        |        | ✔      | ✔      |        |         |         |         |
+| **Funciones / Cartelera**    | funciones.py            | **Karen**          |        |        | ✔      | ✔      |         |         |         |
+| **Asientos**                 | asientos.py             | **Jaider**         |        |        |        | ✔      | ✔       |         |         |
+| **Reservas y Facturación**   | reservas.py, factura.py | **Luisa**          |        |        |        | ✔      | ✔       |         |         |
+| **Administrador**            | admin.py                | **Karen**          |        |        |        |        | ✔       | ✔       |         |
+| **Main (integración final)** | main.py                 | **Todos**          |        |        |        |        |         | ✔       | ✔       |
 
 
 ✔ = Entregado
