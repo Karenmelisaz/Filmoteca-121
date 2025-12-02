@@ -7,7 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1y9B6IkfkPZTMQ7FbEoCPJdS9lzURc-q2
 """
 
-import os
+# ============================================================
+#  ARCHIVOS
+# ============================================================
 
 USERS_FILE = "users.csv"
 RES_FILE = "reservas.csv"
