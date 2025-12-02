@@ -18,7 +18,7 @@ from funciones import cargar_funciones_iniciales, leer_funciones, mostrar_cartel
 from usuarios import registrar_usuario, buscar_usuario, leer_usuarios
 from reservas import registrar_reserva, cancelar_reserva
 from asientos import inicializar_asientos
-from admin import admin
+from administrador import administrador
 from titulo import titulo_filmoteca
 
 # ============================================================
