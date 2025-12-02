@@ -26,6 +26,17 @@ def validar_documento(doc):
     if not (3 <= len(doc) <= 15):
         errores.append("Debe tener entre 3 y 15 dígitos.")
     return errores
+    
+def solicitar_documento_input(mensaje):
+    while True:
+        doc = input(mensaje).strip()
+        errores = validar_documento(doc)
+        if errores:
+            print("⚠️ Error en el documento:")
+            for e in errores:
+                print(" -", e)
+            continue
+        return doc
 
 # Tarifas por tipo de vínculo
 TARIFAS = {
