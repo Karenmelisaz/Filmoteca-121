@@ -17,6 +17,26 @@ import uuid
 # ============================================================
 #  RESERVAS
 # ============================================================
+import re
+
+def validar_documento(doc):
+    errores = []
+    if not doc.isdigit():
+        errores.append("Solo se permiten números.")
+    if not (3 <= len(doc) <= 15):
+        errores.append("Debe tener entre 3 y 15 dígitos.")
+    return errores
+
+def solicitar_documento_input(mensaje):
+    while True:
+        doc = input(mensaje).strip()
+        errores = validar_documento(doc)
+        if errores:
+            print("⚠️ Error en el documento:")
+            for e in errores:
+                print(" -", e)
+            continue
+        return doc
 
 def leer_reservas():
     with open(RES_FILE, newline="", encoding="utf-8") as f:
