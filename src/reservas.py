@@ -13,11 +13,33 @@ FUNC_FILE = "funciones.csv"
 import csv
 from datetime import datetime
 import uuid
+import re
 
 # ============================================================
-#  RESERVAS
+# IMPORTS
 # ============================================================
-import re
+
+# usuarios.py
+from usuarios import buscar_usuario
+
+# funciones.py
+from funciones import mostrar_cartelera, leer_funciones
+
+# asientos.py
+from asientos import (
+    inicializar_asientos,
+    mostrar_asientos,
+    cargar_asientos,
+    guardar_asientos
+)
+
+# validaciones.py
+from validaciones import TARIFAS
+
+
+# ============================================================
+# VALIDACIONES
+# ============================================================
 
 def validar_documento(doc):
     errores = []
@@ -38,12 +60,19 @@ def solicitar_documento_input(mensaje):
             continue
         return doc
 
+
+# ============================================================
+# RESERVAS
+# ============================================================
+
 def leer_reservas():
     with open(RES_FILE, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
+
 def registrar_reserva():
     print("\n=== REGISTRAR RESERVA ===")
+
     # documento validado
     doc = solicitar_documento_input("Documento del usuario: ")
 
@@ -63,27 +92,26 @@ def registrar_reserva():
         print("⚠️ ID de función inválido.")
         return
 
-    # Inicializar asientos (si no existen) con la disponibilidad real
+    # Inicializar asientos (si no existen)
     inicializar_asientos(fid, func["disponibles"])
 
     # Mostrar mapa
     mostrar_asientos(fid)
     mapa = cargar_asientos(fid)
 
-    # Selección de asiento: reintenta hasta que sea válido y libre
+    # Selección de asiento
     while True:
         asiento = input("\nSeleccione asiento (Ej: A7): ").strip().upper()
         sel = next((s for s in mapa if s["asiento"] == asiento), None)
 
         if not sel:
-            print("❌ Asiento inválido. Debe ser un asiento existente (ej A5).")
+            print("❌ Asiento inválido.")
             continue
 
         if sel["estado"] == "X":
-            print("❌ Ese asiento está ocupado. Seleccione otro.")
+            print("❌ Ese asiento está ocupado. Elija otro.")
             continue
 
-        # asiento válido y libre → reservar
         sel["estado"] = "X"
         break
 
@@ -93,16 +121,15 @@ def registrar_reserva():
     # Precio según vínculo del usuario
     precio = TARIFAS[user["vinculo"]]
 
-    # ID de reserva único
+    # ID reserva único
     rid = str(uuid.uuid4())[:8]
     fecha = datetime.now().isoformat()
 
-    # Guardar la reserva (append)
+    # Guardar reserva
     with open(RES_FILE, "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow([rid, doc, fid, asiento, precio, fecha])
 
-    # Mostrar factura/confirmación
     print("\n===== FACTURA =====")
     print("Reserva ID:", rid)
     print("Usuario:", user["nombre"], user["apellido"])
@@ -123,36 +150,32 @@ def cancelar_reserva():
         print("Este usuario no tiene reservas.")
         return
 
-    # Mostrar reservas numeradas (N° | Función | Asiento | ID)
     print("\nN° | Función | Asiento | ID Reserva")
     print("---------------------------------------------")
     for i, r in enumerate(mis_res, 1):
         print(f"{i} | {r['function_id']} | {r['asiento']} | {r['idreserva']}")
 
-    opcion = input("\nSeleccione el número de la reserva a cancelar: ").strip()
+    opcion = input("\nSeleccione número a cancelar: ").strip()
 
     if not opcion.isdigit():
         print("Opción inválida.")
         return
 
     opcion = int(opcion)
-    if opcion < 1 or opcion > len(mis_res):
+    if opcion < 1 or opcion > len_mis_res:
         print("Número inválido.")
         return
 
     target = mis_res[opcion - 1]
 
-    # Liberar asiento en el archivo correspondiente
+    # Liberar asiento
     mapa = cargar_asientos(target["function_id"])
-    changed = False
     for s in mapa:
         if s["asiento"] == target["asiento"]:
             s["estado"] = "O"
-            changed = True
-    if changed:
-        guardar_asientos(target["function_id"], mapa)
+    guardar_asientos(target["function_id"], mapa)
 
-    # Reescribir archivo de reservas sin la cancelada
+    # Reescribir archivo
     nuevas = [r for r in reservas if r["idreserva"] != target["idreserva"]]
     with open(RES_FILE, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["idreserva","documento","function_id","asiento","precio","fecha"])
