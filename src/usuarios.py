@@ -23,6 +23,26 @@ def leer_usuarios():
 
 def buscar_usuario(doc):
     return next((u for u in leer_usuarios() if u["documento"] == doc), None)
+import re
+
+def validar_documento(doc):
+    errores = []
+    if not doc.isdigit():
+        errores.append("Solo se permiten números.")
+    if not (3 <= len(doc) <= 15):
+        errores.append("Debe tener entre 3 y 15 dígitos.")
+    return errores
+
+def solicitar_documento_input(mensaje):
+    while True:
+        doc = input(mensaje).strip()
+        errores = validar_documento(doc)
+        if errores:
+            print("⚠️ Error en el documento:")
+            for e in errores:
+                print(" -", e)
+            continue
+        return doc
 
 def registrar_usuario():
     print("\n=== REGISTRO DE USUARIO ===")
