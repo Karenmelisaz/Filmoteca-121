@@ -11,8 +11,7 @@ import re
 
 # Importar constantes y funciones necesarias
 from archivos import USERS_FILE
-from validaciones import TARIFAS, VINCULOS, validar_nombre
-from validaciones import solicitar_documento_input
+from validaciones import TARIFAS, VINCULOS, validar_nombre, solicitar_documento_input
 
 # ============================================================
 #  USUARIOS
