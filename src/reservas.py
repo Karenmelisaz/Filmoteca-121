@@ -13,7 +13,6 @@ FUNC_FILE = "funciones.csv"
 import csv
 from datetime import datetime
 import uuid
-import re
 
 # ============================================================
 # IMPORTS
@@ -34,31 +33,7 @@ from asientos import (
 )
 
 # validaciones.py
-from validaciones import TARIFAS
-
-
-# ============================================================
-# VALIDACIONES
-# ============================================================
-
-def validar_documento(doc):
-    errores = []
-    if not doc.isdigit():
-        errores.append("Solo se permiten números.")
-    if not (3 <= len(doc) <= 15):
-        errores.append("Debe tener entre 3 y 15 dígitos.")
-    return errores
-
-def solicitar_documento_input(mensaje):
-    while True:
-        doc = input(mensaje).strip()
-        errores = validar_documento(doc)
-        if errores:
-            print("⚠️ Error en el documento:")
-            for e in errores:
-                print(" -", e)
-            continue
-        return doc
+from validaciones import TARIFAS, solicitar_documento_input
 
 
 # ============================================================
@@ -162,7 +137,7 @@ def cancelar_reserva():
         return
 
     opcion = int(opcion)
-    if opcion < 1 or opcion > len_mis_res:
+    if opcion < 1 or opcion > len(mis_res):
         print("Número inválido.")
         return
 
@@ -178,7 +153,7 @@ def cancelar_reserva():
     # Reescribir archivo
     nuevas = [r for r in reservas if r["idreserva"] != target["idreserva"]]
     with open(RES_FILE, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["idreserva","documento","function_id","asiento","precio","fecha"])
+        w = csv.DictWriter(f, fieldnames=["idreserva", "documento", "function_id", "asiento", "precio", "fecha"])
         w.writeheader()
         w.writerows(nuevas)
 
