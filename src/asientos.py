@@ -45,7 +45,7 @@ def inicializar_asientos(fid, disponibles):
 
     with open(fname, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["asiento","estado"])
+        w.writerow(["asiento", "estado"])
         w.writerows(asientos)
 
 def cargar_asientos(fid):
@@ -61,7 +61,7 @@ def cargar_asientos(fid):
 def guardar_asientos(fid, filas):
     fname = archivo_asientos(fid)
     with open(fname, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["asiento","estado"])
+        w = csv.DictWriter(f, fieldnames=["asiento", "estado"])
         w.writeheader()
         w.writerows(filas)
 
@@ -71,7 +71,7 @@ def mostrar_asientos(fid):
     dic = {s["asiento"]: s["estado"] for s in mapa}
 
     # cabecera de columnas
-    print("    "+" ".join([f"{c:>2}" for c in COLUMNAS]))
+    print("    " + " ".join([f"{c:>2}" for c in COLUMNAS]))
     for fila_letra in FILAS:
         fila_line = f"{fila_letra} | " + " ".join(dic.get(f"{fila_letra}{c}", " ") for c in COLUMNAS)
         print(fila_line)
