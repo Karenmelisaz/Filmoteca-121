@@ -13,11 +13,29 @@ FUNC_FILE = "funciones.csv"
 import csv
 
 # ============================================================
+# IMPORTS NECESARIOS
+# ============================================================
+
+# usuarios.py
+from usuarios import leer_usuarios, buscar_usuario
+
+# reservas.py
+from reservas import leer_reservas
+
+# funciones.py
+from funciones import ordenar_funciones, leer_funciones
+
+# asientos.py
+from asientos import cargar_asientos
+
+
+# ============================================================
 #  ADMINISTRADOR
 # ============================================================
 
 ADMIN_USER = "admin"
 ADMIN_PASS = "admin123"
+
 
 def admin():
     print("\n=== ADMINISTRACIÓN ===")
@@ -42,7 +60,7 @@ def admin():
     print("\n--- REPORTES GENERALES ---")
     print("Total de reservas:", total)
     print("Total pagado:", total_pago)
-    print("Promedio diario:", round(promedio_diario,2))
+    print("Promedio diario:", round(promedio_diario, 2))
 
     # Conteo por usuario
     conteo = {}
@@ -54,8 +72,10 @@ def admin():
         menor = min(conteo, key=conteo.get)
         u1 = buscar_usuario(mayor)
         u2 = buscar_usuario(menor)
-        if u1: print("\nUsuario con más reservas:", u1["nombre"], u1["apellido"], "→", conteo[mayor])
-        if u2: print("Usuario con menos reservas:", u2["nombre"], u2["apellido"], "→", conteo[menor])
+        if u1:
+            print("\nUsuario con más reservas:", u1["nombre"], u1["apellido"], "→", conteo[mayor])
+        if u2:
+            print("Usuario con menos reservas:", u2["nombre"], u2["apellido"], "→", conteo[menor])
 
     print("\n--- DISPONIBILIDAD POR FUNCIÓN ---")
     for f in ordenar_funciones(leer_funciones()):
